@@ -1,0 +1,16 @@
+import webbrowser
+import time
+
+def pomodoro_timer():
+  counter = 0
+  while (counter < 3):
+    time.sleep(1500)
+    webbrowser.open("http://www.youtube.com/watch?v=dQw4w9WgXcQ")
+    time.sleep(1800)
+    webbrowser.open("http://www.youtube.com/watch?v=otCpCn0l4Wo")
+    counter +=1
+    
+pomodoro_timer()
+
+#Epic choice of videos
+# 25 minutes work / 5 minutes off
