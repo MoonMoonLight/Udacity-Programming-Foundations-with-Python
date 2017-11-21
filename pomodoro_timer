@@ -6,7 +6,7 @@ def pomodoro_timer():
   while (counter < 3):
     time.sleep(1500)
     webbrowser.open("http://www.youtube.com/watch?v=dQw4w9WgXcQ")
-    time.sleep(1800)
+    time.sleep(300)
     webbrowser.open("http://www.youtube.com/watch?v=otCpCn0l4Wo")
     counter +=1
     
